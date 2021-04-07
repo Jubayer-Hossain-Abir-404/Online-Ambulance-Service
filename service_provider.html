@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content= "width=device-width">
+  <title> Registration Form </title>
+ </head> 
+<body> 
+<form action="service_provider_reg.php" method="post">
+<div class="container">
+  <br>
+
+    <div class="row">
+        <div class="col-sm-6">
+      <h1 class="button" align="center" style="color: #808000"> Registrar Here </h1>
+      <p align="center" style="color: purple"> Service providers are cordially requested to fill up the form with correct information. </p>
+
+      <hr class="mb-3">
+
+
+  <div class="form-group">
+      <label for="first_name" style="color:#7B3F00" >First Name:</label>
+      <input type="text" placeholder="Enter your first name" class="form-control" id="first_name" name="first_name" required>
+    </div>
+
+    <div class="form-group">
+    <label for="last_name" style="color:#7B3F00">Last Name:</label>
+    <input type="text" placeholder="Enter your last name" class="form-control" id="last_name" name="last_name" required>
+    </div>
+
+    <div class="form-group">
+    <label for="email" style="color:#7B3F00">Email Address:</label>
+    <input type="email" placeholder="Enter your email address" class="form-control" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+    <label for="phone" style="color:#7B3F00">Phone Number:</label>
+    <input type="text" placeholder="Enter your phone number" class="form-control" id="phone_number" name="phone_number" required>
+    </div>
+
+    <div class="form-group">
+    <label for="bkash" style="color:#7B3F00">bKash Number:</label>
+    <input type="text" placeholder="Enter your bKash number" class="form-control" id="bkash_number" name="bkash_number" required>
+    </div>
+
+    <div class="form-group">
+    <label for="nid" style="color:#7B3F00">NID No:</label>
+    <input type="text" placeholder="Enter your NID number" class="form-control" id="nid_number" name="nid_number" required>
+    </div>
+
+  <br>
+    <div class="form-control">
+      <label  id="profession" for="profession" style="color:#7B3F00">Profession:   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+
+      <input type="radio" id="driver" name="profession" value="d" required>
+      <label for="male">Driver</label>
+      <input type="radio" id="technician" name="profession" value="t" required>
+      <label for="female">Technician</label>
+      <input type="radio" id="nurse" name="profession" value="n" required>
+      <label for="other">Nurse</label>
+    </div>
+ <br>
+
+ <br>
+    <div class="form-control">
+     <label  id="gender" for="gender" style="color:#7B3F00">Gender:   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+
+      <input type="radio" id="male" name="gender" value="m" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="f" required>
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="o" required>
+      <label for="other">Other</label>
+    </div>
+ <br><br>
+
+<div class="form-group">
+    <label for="pass" style="color:#7B3F00">Password:</label>
+    <input type="password" placeholder="Enter your password" class="form-control" id="password" name="password" required >
+  </div>
+  
+  
+
+
+ <button type="submit" class="btn btn-primary">Submit</button>
+
+
+  
+</div>
+</div>
+</div>
+
+<br>
+</form>
+
+
+
+</body>
+</html>
+
